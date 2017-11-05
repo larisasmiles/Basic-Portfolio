@@ -1,45 +1,29 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>All about Me</title>
 </head>
-
 <body>
-  <header>
+    <header id="heading">
     <div class="container">
-      <div class="logo">
-        <h1>Larisa Anderson</h1>
+        <a href="./index.html" id="logo">Larisa Anderson</a>
+          <nav>
+              <a href="index.html">About</a>
+              <a href="./portfolio.html">Portfolio</a>
+              <a href="./Contact.html">Contact</a>
+          </nav>
       </div>
-      <br>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html">About</a>
-          </li>
-
-          <li>
-            <a href="./contact.html">Contact</a>
-          </li>
-
-          <li>
-            <a href="./portfolio.html">Portfolio</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
   </header>
-  <main>
-    <div class="container">
-      <section id="about">
-        <h2>About Me</h2>
-        <hr>
-        <div class="profilepic">
-          <img src="assets/images/profilepic.jpg" alt="Larisa Anderson">
-        </div>
+
+  <div id="main-container" class="container">
+     <section class="main-container">
+        <h1>About Me</h1>
+   
+        <img src="assets/images/profilepic.jpg" class="profilepic" alt="Larisa Anderson">
+
         <p>I think of myself as abosolutely WONDERFUL! We all should right? Creativity has always been an adjective people like
           to use when describing me. What do you know, I like to use that one too! I watch movies and think of ways that
           the director droped the ball, I look at websites and see all the area's I would fix. I am a creator of things and
@@ -51,26 +35,21 @@
         <a href="https://www.facebook.com/LarisaSmiles?ref=bookmarks" target="_blank">Learn More</a>
       </section>
 
-      <aside id=: "sidebar">
-        <h3>Connect with Me</h3>
-        <hr>
-        <div class="social-icons">
-          <a href="https://github.com/larisasmiles" target="_blank">
-            <img src="assets/images/github64px1.png" alt="Git Hub">
-          </a>
-          <a href="https://www.linkedin.com/in/larisanderson/" target="_blank">
-            <img src="assets/images/linkedin64px.png" alt="Linkedin">
-          </a>
-          <a href="https://stackoverflow.com/users/7040318/larisasmiles" target="_blank">
-            <img src="assets/images/stackoverflow64px.png" alt="Stack Overflow">
-          </a>
-        </div>
-      </aside>
-    </div>
-  </main>
-  <footer class="footer">
-    Copyright 2017 Larisa Anderson
-  </footer>
-</body>
+      <section class="sidebar">
+          <div id="connect">
+              <h2>Connect with Me</h2>
 
+              <img src="assets/images/github64px1.png" class="social icons" alt="Git Hub">
+              <img src="assets/images/linkedin64px.png" class="social icons" alt="Linkedin">
+              <img src="assets/images/stackoverflow64px.png" class="social icons" alt="Stack Overflow">
+          </div>
+        </section>
+    </div>
+
+    <footer>
+       <div class="container">
+          Copyright 2017 Larisa Anderson
+       </div>
+    </footer>
+  </body>
 </html>
